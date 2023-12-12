@@ -1,0 +1,152 @@
+.anntenatalcard{
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #feeee3;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .heading{
+    text-align: center;
+    color: #7B2869;
+    margin-top: 0;
+    font-family: Ariel;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #7B2869;
+    margin-bottom: 5px;
+    font-family: Ariel;
+    font-style: Bold;
+
+  }  
+  nav{
+    background-color: #2B3467;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  nav li {
+    margin-right: 30px;
+    margin-left:  20px;
+  }
+
+  
+  nav a {
+    text-decoration:none;
+    color: #F0DBDB;
+    font-size: 17px;
+    font-family: Georgia;
+
+  }
+  
+
+  nav a:hover {
+    color: white;
+  }
+
+ ol li {
+    display: block;
+    width: 150px;
+    height: 50px;
+    color: #2B3467;
+    background-color:#7B2869;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0;
+    text-align: center;
+}
+
+  h2 {
+    color: #2B3467;;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  #back-button {
+    background-color:grey;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 570px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .footer{
+    text-align: center;
+    color: #2B3467;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border: #2B3467;
+    border-style: inset;
+    border-radius: 10px;
+    border-width: 50%
+    
+  }
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px 12px;
+    width: 94%;
+    align-items: center;
+  }
+  
+  button[type="submit"] {
+    background-color: #2B3467;
+    color: white;
+    padding: 10px 10px;
+    border: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    margin: auto;
+  }
+  button:hover {
+    background-color: grey;
+  }
+
+/*delete1 page*/
+.alert-box {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.alert-msg {
+  color:#2B3467;
+  font-size: 20px;
+  font-weight: bold;
+}
+.update{
+  
+  margin: auto;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="beautify.css">
+
+  <meta charset="utf-8">
+  <title>Login</title>
+  <style>
+    /* Add some style to the login form */
+    form {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 300px;
+      margin: auto;
+      text-align: center;
+      box-shadow: 2px 2px 5px #ccc;
+    }
+    input[type="text"], input[type="password"] {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    button[type="submit"] {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body style="background:url(https://emedia1.nhs.wales/PublicHealthWales/cache/file/6BF94ED6-F79C-498C-9E60C2F2AB4F9A0D_carouselimage.jpg)">
+
+
+  <form action="./patientdet.php" method="post">
+    <h2>Login</h2>
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">login</button>
+  </form>
+</body>
+</html>
