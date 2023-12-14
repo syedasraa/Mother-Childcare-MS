@@ -1,6 +1,9 @@
 # Mother & Childcare Management System
 The Mother & Childcare Management System is a comprehensive web-based application designed to streamline and enhance healthcare information and services for mothers and their children. This system employs HTML and CSS for the front-end user interface, MySQL for the database management, and PHP for the backend functionality.
 
+# Introduction:
+*"Driven by a personal passion for medicine and a desire to contribute to women's health, I present the Mother & Childcare Management System. Originally inspired by a dream to serve in the gynecological field, this project reflects my commitment to bridging the gap between technology and healthcare. By streamlining information and fostering a supportive environment, this system aims to enhance the overall healthcare experience for mothers and their children. I am thrilled to share this initiative, hoping it makes a meaningful impact on maternal and child health."*
+
 # Technology stack:
   Front-end: HTML, CSS, JavaScript
   Back-end: PHP
